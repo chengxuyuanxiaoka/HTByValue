@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD17C0DB1E738CA70079DAF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD17C0DA1E738CA70079DAF5 /* main.m */; };
+		BD17C0DE1E738CA70079DAF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD17C0DD1E738CA70079DAF5 /* AppDelegate.m */; };
+		BD17C0E41E738CA70079DAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD17C0E21E738CA70079DAF5 /* Main.storyboard */; };
+		BD17C0E61E738CA70079DAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD17C0E51E738CA70079DAF5 /* Assets.xcassets */; };
+		BD17C0E91E738CA70079DAF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD17C0E71E738CA70079DAF5 /* LaunchScreen.storyboard */; };
+		BD17C0F41E738CA70079DAF5 /* HTByValueSingletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD17C0F31E738CA70079DAF5 /* HTByValueSingletonTests.m */; };
+		BD17C0FF1E738CA70079DAF5 /* HTByValueSingletonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD17C0FE1E738CA70079DAF5 /* HTByValueSingletonUITests.m */; };
+		BD17C15E1E738D3A0079DAF5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD17C1571E738D3A0079DAF5 /* SecondViewController.m */; };
+		BD17C15F1E738D3A0079DAF5 /* HTTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BD17C15B1E738D3A0079DAF5 /* HTTools.m */; };
+		BD17C1601E738D3A0079DAF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD17C15D1E738D3A0079DAF5 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD17C0F01E738CA70079DAF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD17C0CE1E738CA70079DAF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD17C0D51E738CA70079DAF5;
+			remoteInfo = HTByValueSingleton;
+		};
+		BD17C0FB1E738CA70079DAF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD17C0CE1E738CA70079DAF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD17C0D51E738CA70079DAF5;
+			remoteInfo = HTByValueSingleton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD17C0D61E738CA70079DAF5 /* HTByValueSingleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTByValueSingleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD17C0DA1E738CA70079DAF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD17C0DC1E738CA70079DAF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD17C0DD1E738CA70079DAF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD17C0E31E738CA70079DAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD17C0E51E738CA70079DAF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD17C0E81E738CA70079DAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD17C0EA1E738CA70079DAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD17C0EF1E738CA70079DAF5 /* HTByValueSingletonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTByValueSingletonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD17C0F31E738CA70079DAF5 /* HTByValueSingletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTByValueSingletonTests.m; sourceTree = "<group>"; };
+		BD17C0F51E738CA70079DAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD17C0FA1E738CA70079DAF5 /* HTByValueSingletonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTByValueSingletonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD17C0FE1E738CA70079DAF5 /* HTByValueSingletonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTByValueSingletonUITests.m; sourceTree = "<group>"; };
+		BD17C1001E738CA70079DAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD17C1561E738D3A0079DAF5 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BD17C1571E738D3A0079DAF5 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BD17C1591E738D3A0079DAF5 /* HTConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTConfig.h; sourceTree = "<group>"; };
+		BD17C15A1E738D3A0079DAF5 /* HTTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTools.h; sourceTree = "<group>"; };
+		BD17C15B1E738D3A0079DAF5 /* HTTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTools.m; sourceTree = "<group>"; };
+		BD17C15C1E738D3A0079DAF5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD17C15D1E738D3A0079DAF5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD17C0D31E738CA70079DAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD17C0EC1E738CA70079DAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD17C0F71E738CA70079DAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD17C0CD1E738CA70079DAF5 = {
+			isa = PBXGroup;
+			children = (
+				BD17C0D81E738CA70079DAF5 /* HTByValueSingleton */,
+				BD17C0F21E738CA70079DAF5 /* HTByValueSingletonTests */,
+				BD17C0FD1E738CA70079DAF5 /* HTByValueSingletonUITests */,
+				BD17C0D71E738CA70079DAF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD17C0D71E738CA70079DAF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD17C0D61E738CA70079DAF5 /* HTByValueSingleton.app */,
+				BD17C0EF1E738CA70079DAF5 /* HTByValueSingletonTests.xctest */,
+				BD17C0FA1E738CA70079DAF5 /* HTByValueSingletonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD17C0D81E738CA70079DAF5 /* HTByValueSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				BD17C1581E738D3A0079DAF5 /* Tools */,
+				BD17C0DC1E738CA70079DAF5 /* AppDelegate.h */,
+				BD17C0DD1E738CA70079DAF5 /* AppDelegate.m */,
+				BD17C15C1E738D3A0079DAF5 /* ViewController.h */,
+				BD17C15D1E738D3A0079DAF5 /* ViewController.m */,
+				BD17C1561E738D3A0079DAF5 /* SecondViewController.h */,
+				BD17C1571E738D3A0079DAF5 /* SecondViewController.m */,
+				BD17C0E21E738CA70079DAF5 /* Main.storyboard */,
+				BD17C0E51E738CA70079DAF5 /* Assets.xcassets */,
+				BD17C0E71E738CA70079DAF5 /* LaunchScreen.storyboard */,
+				BD17C0EA1E738CA70079DAF5 /* Info.plist */,
+				BD17C0D91E738CA70079DAF5 /* Supporting Files */,
+			);
+			path = HTByValueSingleton;
+			sourceTree = "<group>";
+		};
+		BD17C0D91E738CA70079DAF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD17C0DA1E738CA70079DAF5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD17C0F21E738CA70079DAF5 /* HTByValueSingletonTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD17C0F31E738CA70079DAF5 /* HTByValueSingletonTests.m */,
+				BD17C0F51E738CA70079DAF5 /* Info.plist */,
+			);
+			path = HTByValueSingletonTests;
+			sourceTree = "<group>";
+		};
+		BD17C0FD1E738CA70079DAF5 /* HTByValueSingletonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD17C0FE1E738CA70079DAF5 /* HTByValueSingletonUITests.m */,
+				BD17C1001E738CA70079DAF5 /* Info.plist */,
+			);
+			path = HTByValueSingletonUITests;
+			sourceTree = "<group>";
+		};
+		BD17C1581E738D3A0079DAF5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BD17C1591E738D3A0079DAF5 /* HTConfig.h */,
+				BD17C15A1E738D3A0079DAF5 /* HTTools.h */,
+				BD17C15B1E738D3A0079DAF5 /* HTTools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD17C0D51E738CA70079DAF5 /* HTByValueSingleton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD17C1031E738CA70079DAF5 /* Build configuration list for PBXNativeTarget "HTByValueSingleton" */;
+			buildPhases = (
+				BD17C0D21E738CA70079DAF5 /* Sources */,
+				BD17C0D31E738CA70079DAF5 /* Frameworks */,
+				BD17C0D41E738CA70079DAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTByValueSingleton;
+			productName = HTByValueSingleton;
+			productReference = BD17C0D61E738CA70079DAF5 /* HTByValueSingleton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD17C0EE1E738CA70079DAF5 /* HTByValueSingletonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD17C1061E738CA70079DAF5 /* Build configuration list for PBXNativeTarget "HTByValueSingletonTests" */;
+			buildPhases = (
+				BD17C0EB1E738CA70079DAF5 /* Sources */,
+				BD17C0EC1E738CA70079DAF5 /* Frameworks */,
+				BD17C0ED1E738CA70079DAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD17C0F11E738CA70079DAF5 /* PBXTargetDependency */,
+			);
+			name = HTByValueSingletonTests;
+			productName = HTByValueSingletonTests;
+			productReference = BD17C0EF1E738CA70079DAF5 /* HTByValueSingletonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD17C0F91E738CA70079DAF5 /* HTByValueSingletonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD17C1091E738CA70079DAF5 /* Build configuration list for PBXNativeTarget "HTByValueSingletonUITests" */;
+			buildPhases = (
+				BD17C0F61E738CA70079DAF5 /* Sources */,
+				BD17C0F71E738CA70079DAF5 /* Frameworks */,
+				BD17C0F81E738CA70079DAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD17C0FC1E738CA70079DAF5 /* PBXTargetDependency */,
+			);
+			name = HTByValueSingletonUITests;
+			productName = HTByValueSingletonUITests;
+			productReference = BD17C0FA1E738CA70079DAF5 /* HTByValueSingletonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD17C0CE1E738CA70079DAF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "一米阳光";
+				TargetAttributes = {
+					BD17C0D51E738CA70079DAF5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BD17C0EE1E738CA70079DAF5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BD17C0D51E738CA70079DAF5;
+					};
+					BD17C0F91E738CA70079DAF5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BD17C0D51E738CA70079DAF5;
+					};
+				};
+			};
+			buildConfigurationList = BD17C0D11E738CA70079DAF5 /* Build configuration list for PBXProject "HTByValueSingleton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD17C0CD1E738CA70079DAF5;
+			productRefGroup = BD17C0D71E738CA70079DAF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD17C0D51E738CA70079DAF5 /* HTByValueSingleton */,
+				BD17C0EE1E738CA70079DAF5 /* HTByValueSingletonTests */,
+				BD17C0F91E738CA70079DAF5 /* HTByValueSingletonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD17C0D41E738CA70079DAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD17C0E91E738CA70079DAF5 /* LaunchScreen.storyboard in Resources */,
+				BD17C0E61E738CA70079DAF5 /* Assets.xcassets in Resources */,
+				BD17C0E41E738CA70079DAF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD17C0ED1E738CA70079DAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD17C0F81E738CA70079DAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD17C0D21E738CA70079DAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD17C15E1E738D3A0079DAF5 /* SecondViewController.m in Sources */,
+				BD17C15F1E738D3A0079DAF5 /* HTTools.m in Sources */,
+				BD17C0DE1E738CA70079DAF5 /* AppDelegate.m in Sources */,
+				BD17C0DB1E738CA70079DAF5 /* main.m in Sources */,
+				BD17C1601E738D3A0079DAF5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD17C0EB1E738CA70079DAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD17C0F41E738CA70079DAF5 /* HTByValueSingletonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD17C0F61E738CA70079DAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD17C0FF1E738CA70079DAF5 /* HTByValueSingletonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD17C0F11E738CA70079DAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD17C0D51E738CA70079DAF5 /* HTByValueSingleton */;
+			targetProxy = BD17C0F01E738CA70079DAF5 /* PBXContainerItemProxy */;
+		};
+		BD17C0FC1E738CA70079DAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD17C0D51E738CA70079DAF5 /* HTByValueSingleton */;
+			targetProxy = BD17C0FB1E738CA70079DAF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD17C0E21E738CA70079DAF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD17C0E31E738CA70079DAF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD17C0E71E738CA70079DAF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD17C0E81E738CA70079DAF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD17C1011E738CA70079DAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD17C1021E738CA70079DAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD17C1041E738CA70079DAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HTByValueSingleton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTByValueSingleton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD17C1051E738CA70079DAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HTByValueSingleton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTByValueSingleton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD17C1071E738CA70079DAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HTByValueSingletonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTByValueSingletonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTByValueSingleton.app/HTByValueSingleton";
+			};
+			name = Debug;
+		};
+		BD17C1081E738CA70079DAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HTByValueSingletonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTByValueSingletonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTByValueSingleton.app/HTByValueSingleton";
+			};
+			name = Release;
+		};
+		BD17C10A1E738CA70079DAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HTByValueSingletonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTByValueSingletonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HTByValueSingleton;
+			};
+			name = Debug;
+		};
+		BD17C10B1E738CA70079DAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HTByValueSingletonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTByValueSingletonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HTByValueSingleton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD17C0D11E738CA70079DAF5 /* Build configuration list for PBXProject "HTByValueSingleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD17C1011E738CA70079DAF5 /* Debug */,
+				BD17C1021E738CA70079DAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD17C1031E738CA70079DAF5 /* Build configuration list for PBXNativeTarget "HTByValueSingleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD17C1041E738CA70079DAF5 /* Debug */,
+				BD17C1051E738CA70079DAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD17C1061E738CA70079DAF5 /* Build configuration list for PBXNativeTarget "HTByValueSingletonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD17C1071E738CA70079DAF5 /* Debug */,
+				BD17C1081E738CA70079DAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD17C1091E738CA70079DAF5 /* Build configuration list for PBXNativeTarget "HTByValueSingletonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD17C10A1E738CA70079DAF5 /* Debug */,
+				BD17C10B1E738CA70079DAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD17C0CE1E738CA70079DAF5 /* Project object */;
+}
